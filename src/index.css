@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * ── High Contrast B&W Scheme ──
+ * Edit these variables to change the entire look.
+ * Named after their role so you know what each one does.
+ */
+:root {
+  /* ─ backgrounds (dark → light) ─ */
+  --wf-bg-deep:       #000000;   /* deepest background (body, input bg)    */
+  --wf-bg-base:       #0a0a0a;   /* header / footer background             */
+  --wf-bg-card:       #1a1a1a;   /* card surface                           */
+  --wf-bg-well:       #2a2a2a;   /* inset wells (random-mode badge, etc.)  */
+
+  /* ─ borders ─ */
+  --wf-border:        rgba(255, 255, 255, 0.65);   /* default border       */
+  --wf-border-strong: rgba(255, 255, 255, 0.40);   /* emphasized border    */
+  --wf-border-divider:rgba(255, 255, 255, 0.60);   /* subtle divider       */
+
+  /* ─ text ─ */
+  --wf-text:          #ffffff;   /* primary text                           */
+  --wf-text-secondary:#f5f5f5;   /* secondary / value text                 */
+  --wf-text-muted:    #c0c0c0;   /* muted labels, captions                 */
+  --wf-text-dim:      #b0b0b0;   /* very dim text (footer, tiny labels)    */
+
+  /* ─ accent: primary (white signal) ─ */
+  --wf-accent:        #ffffff;   /* primary accent (buttons, highlights)   */
+  --wf-accent-hover:  #e0e0e0;   /* accent hover                           */
+  --wf-accent-glow:   #ffffff;   /* ping / glow animation                  */
+  --wf-accent-subtle: rgba(255, 255, 255, 0.50);  /* subtle tinted bg     */
+
+  /* ─ accent: callsign (blue) ─ */
+  --wf-callsign:      #3b82f6;   /* callsign badge color                   */
+
+  /* ─ accent: action (green / check) ─ */
+  --wf-ok:            #22c55e;   /* check / success button                 */
+  --wf-ok-hover:      #16a34a;   /* check hover                            */
+
+  /* ─ accuracy feedback ─ */
+  --wf-score-good:    #ffffff;   /* ≥ 90 %                                 */
+  --wf-score-mid:     #c0c0c0;   /* ≥ 70 %                                 */
+  --wf-score-bad:     #808080;   /* < 70 %                                 */
+
+  /* ─ slider thumb ─ */
+  --wf-slider-thumb:  #ffffff;
+  --wf-slider-border: #c0c0c0;
+
+  /* ─ selection ─ */
+  --wf-selection:     rgba(255, 255, 255, 0.60);
+
+  /* ─ shadow ─ */
+  --wf-shadow:        rgba(0, 0, 0, 0.80);
+
+  /* ─ button ─ */
+  --wf-button-bg:    #00BB00;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--wf-bg-deep);
+  color: var(--wf-text);
+}
+
