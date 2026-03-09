@@ -1,10 +1,10 @@
-# CW Practicer
+# CW Koch Trainer
 
 A comprehensive Morse code training web application built with React + Vite.
 
 ## Live Demo
 
-Visit: [https://0x00a0.github.io/cw-practicer](https://0x00a0.github.io/cw-practicer)
+Visit: [https://0x00a0.github.io/cw-koch-trainer](https://0x00a0.github.io/cw-practicer)
 
 ## Tech Stack
 

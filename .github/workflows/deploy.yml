@@ -44,7 +44,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ github.event.deployment.payload.web_url || format('https://0x00a0.github.io/cw-practicer/') }}
+      url: ${{ github.event.deployment.payload.web_url || format('https://0x00a0.github.io/cw-koch-trainer/') }}
     runs-on: ubuntu-latest
     needs: build
     steps:
