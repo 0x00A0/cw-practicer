@@ -25,7 +25,7 @@ import { courses, MORSE, getName, type Lesson } from "@/courses";
 
 /* ────────────────────────── constants ────────────────────────── */
 
-const STORAGE_KEY = "cw-practicer-v3";
+const STORAGE_KEY = "cw-koch-trainer-v3";
 
 /* ────────────────────────── helpers ──────────────────────────── */
 
@@ -657,7 +657,7 @@ export default function KochMethodTrainer() {
       {/* ── footer ── */}
       <footer className="border-t border-wf-border-divider bg-wf-bg-base">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-5 py-3 text-sm text-wf-text-dim">
-          <span><a href="https://github.com/0x00A0/cw-practicer">{t.footer.poweredBy}</a></span>
+          <span><a href="https://github.com/0x00A0/cw-koch-trainer">{t.footer.poweredBy}</a></span>
           <span>{t.footer.copyright}</span>
           <span>{t.footer.de} <a href="https://www.qrz.com/db/SA0WXR"><span className="font-semibold text-wf-callsign">SAØWXR</span></a></span>
         </div>
