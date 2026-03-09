@@ -3,6 +3,20 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: [
+          "-apple-system", "BlinkMacSystemFont", '"Segoe UI"', "Roboto",
+          '"Helvetica Neue"', "Arial",
+          '"PingFang SC"', '"Hiragino Sans GB"', '"Microsoft YaHei"',
+          '"Source Han Sans SC"', '"Noto Sans CJK SC"',
+          "sans-serif",
+        ],
+        mono: [
+          '"JetBrains Mono"', '"Fira Code"', '"SF Mono"', "Menlo", "Consolas",
+          '"Source Han Sans SC"', '"Microsoft YaHei"', '"PingFang SC"',
+          "monospace",
+        ],
+      },
       colors: {
         wf: {
           "bg-deep":    "var(--wf-bg-deep)",
