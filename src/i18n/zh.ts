@@ -3,7 +3,7 @@ import type { Locale } from "./en";
 const zh: Locale = {
   header: {
     title1: "CW",
-    title2: "练习工具",
+    title2: "Koch学习法练习器",
     by: "作者",
   },
   practice: {
@@ -18,7 +18,11 @@ const zh: Locale = {
   },
   lesson: {
     title: "课程",
-    charPrefix: "字符",
+    category: "类别",
+    newInThisLesson: "本课学习",
+    playChar: "播放",
+    prev: "上一课",
+    next: "下一课",
   },
   settings: {
     title: "设置",
@@ -28,6 +32,8 @@ const zh: Locale = {
     effectiveSpeed: "有效速度",
     toneFreq: "音调频率",
     volume: "音量",
+    noise: "背景噪声",
+    noiseVol: "噪声强度",
     random: "随机",
     rnd: "随机",
   },

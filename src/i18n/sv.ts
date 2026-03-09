@@ -3,8 +3,8 @@ import type { Locale } from "./en";
 const sv: Locale = {
   header: {
     title1: "CW",
-    title2: "Övningsverktyg",
-    by: "Av",
+    title2: "Kochmetodtränare",
+    by: "av",
   },
   practice: {
     play: "Spela",
@@ -18,7 +18,11 @@ const sv: Locale = {
   },
   lesson: {
     title: "Lektion",
-    charPrefix: "Tecken",
+    category: "Kategori",
+    newInThisLesson: "Nytt i denna lektion",
+    playChar: "Spela",
+    prev: "Förra",
+    next: "Nästa",
   },
   settings: {
     title: "Inställningar",
@@ -28,8 +32,10 @@ const sv: Locale = {
     effectiveSpeed: "Effektiv hastighet",
     toneFreq: "Tonfrekvens",
     volume: "Volym",
+    noise: "QRN",
+    noiseVol: "QRN-nivå",
     random: "Slumpmässig",
-    rnd: "Slp",
+    rnd: "RND",
   },
   footer: {
     poweredBy: "Drivs av GitHub Pages",

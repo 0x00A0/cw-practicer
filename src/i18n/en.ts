@@ -16,7 +16,11 @@ export interface Locale {
   };
   lesson: {
     title: string;
-    charPrefix: string;
+    category: string;
+    newInThisLesson: string;
+    playChar: string;
+    prev: string;
+    next: string;
   };
   settings: {
     title: string;
@@ -26,6 +30,8 @@ export interface Locale {
     effectiveSpeed: string;
     toneFreq: string;
     volume: string;
+    noise: string;
+    noiseVol: string;
     random: string;
     rnd: string;
   };
@@ -39,8 +45,8 @@ export interface Locale {
 const en: Locale = {
   header: {
     title1: "CW",
-    title2: "Practice Tool",
-    by: "By",
+    title2: "Koch Method Trainer",
+    by: "by",
   },
   practice: {
     play: "Play",
@@ -54,7 +60,11 @@ const en: Locale = {
   },
   lesson: {
     title: "Lesson",
-    charPrefix: "Char",
+    category: "Category",
+    newInThisLesson: "New in this lesson",
+    playChar: "Play",
+    prev: "Prev",
+    next: "Next",
   },
   settings: {
     title: "Settings",
@@ -64,6 +74,8 @@ const en: Locale = {
     effectiveSpeed: "Effective Speed",
     toneFreq: "Tone Freq",
     volume: "Volume",
+    noise: "QRN",
+    noiseVol: "QRN Level",
     random: "Random",
     rnd: "Rnd",
   },
